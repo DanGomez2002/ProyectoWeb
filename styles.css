@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 body {
-    font-family: "Noto Sans Warang Citi", sans-serif;
+    font-family: "Signika Negative", sans-serif;
     padding-top: 70px; 
     
 }
 
 .navbar {
     background-color: rgb(87, 163, 87) !important; /* Azul más oscuro */
-    font-family: Arial, sans-serif;
+    font-family: "Signika Negative", sans-serif;;
 }
 .navbar .nav-link, .navbar .navbar-brand {
     color: #141414 !important; /* Color de las fuentes */
@@ -162,7 +162,7 @@ h1 {
 .social-icon {
     font-size: 20px;
     color: #054b14;
-    margin-left: 25px;
+    margin-left: 18px;
     transition: color 0.3s ease;
 }
 
