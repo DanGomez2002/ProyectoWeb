@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 70px; /* Ajusta según la altura de la navbar */
+
+    
+}
+
+.navbar {
+    background-color: rgb(87, 163, 87) !important; /* Azul más oscuro */
+    font-family: Arial, sans-serif;
+}
+.navbar .nav-link, .navbar .navbar-brand {
+    color: #141414 !important; /* Color de las fuentes */
+}
+
+h1 {
+    color: #004080;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%); /* Cambia el color a blanco */
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%); /* Cambia el color a blanco */
+}
+
+/* Si quieres otro color, usa un fondo */
+.carousel-control-prev, 
+.carousel-control-next {
+    background-color: rgba(255, 0, 0, 0); /* Fondo semitransparente */
+}
+
+.carousel-item img {
+    width: 100%; /* Hace que la imagen ocupe el ancho del contenedor */
+    height: 330px; /* Puedes ajustar la altura según lo necesites */
+    object-fit: contain; /* Mantiene la proporción y recorta la imagen si es necesario */
+}
+/* Estilos para la sección de noticias */
+.news-section {
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+.news-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.news-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+  /* Sección de eventos */
+  .event-section {
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+.event-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background: #f8f9fa;
+}
+.event-date {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Pie de pagina */
+.custom-footer {
+    background-color: rgb(87, 163, 87); /* O cualquier otro color */
+    color: #000000 !important;
+    padding: 20px 0;
+}
+
+
+/* Submenus */
+.dropdown-menu {
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+.dropdown-submenu {
+    position: 20vh;
+  
+
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -5px;
+}
+
+.dropdown-item:hover + .dropdown-menu,
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+/* Estilos íconos de redes sociales */
+.social-icon {
+    font-size: 20px;
+    color: #0ba02b;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #000000; /* Cambia de color al pasar el mouse */
+
+}
+/* Barra lateral */
+.sidebar {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgb(87, 163, 87);
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+}
+.sidebar a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.3s;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 40px;
+}
+.sidebar a i {
+    margin-right: 10px;
+}
+.sidebar a:hover {
+    background: darkgreen;
+    width: 150px;
+}
+.sidebar a span {
+    display: none;
+}
+.sidebar a:hover span {
+    display: inline;
+}
