@@ -85,9 +85,35 @@ h1 {
 
 /* Pie de pagina */
 .custom-footer {
-    background-color: rgb(87, 163, 87); /* O cualquier otro color */
-    color: #000000 !important;
-    padding: 20px 0;
+    background-color: #2E7D32; /* Verde oscuro más elegante */
+    color: #ffffff; /* Texto en blanco */
+    padding: 40px 0;
+    font-size: 14px;
+}
+
+/* Estilos de los enlaces */
+.custom-footer a {
+    color: #FFD700; /* Amarillo dorado */
+    text-decoration: none;
+}
+
+.custom-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Iconos de redes sociales */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #FFD700;
+}
+
+.social-icon:hover {
+    color: #ffffff;
 }
 
 
