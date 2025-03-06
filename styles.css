@@ -15,6 +15,7 @@ body {
 
 h1 {
     color: #004080;
+/* Carrusel */
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -24,8 +25,6 @@ h1 {
 .carousel-control-next-icon {
     filter: invert(100%); /* Cambia el color a blanco */
 }
-
-/* Si quieres otro color, usa un fondo */
 .carousel-control-prev, 
 .carousel-control-next {
     background-color: rgba(255, 0, 0, 0); /* Fondo semitransparente */
@@ -70,6 +69,19 @@ h1 {
     font-weight: bold;
     color: #007bff;
 }
+  /* Estilos para la sección de mapa */
+  .map-section {
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 20px;
+    text-align: center;
+}
+.map-container {
+    width: 100%;
+    height: 460px;
+    border-radius: 5px;
+    overflow: hidden;
+}
 
 /* Pie de pagina */
 .custom-footer {
@@ -105,7 +117,7 @@ h1 {
 /* Estilos íconos de redes sociales */
 .social-icon {
     font-size: 20px;
-    color: #0ba02b;
+    color: #054b14;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
